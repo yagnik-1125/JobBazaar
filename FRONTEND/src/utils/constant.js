@@ -1,7 +1,6 @@
-import dotenv from 'dotenv'
-dotenv.config()
 
-export const SERVER_URL = process.env.SERVER_URL
-export const JOBS_URL = process.env.JOBS_URL
-export const APPLICATION_URL = process.env.APPLICATION_URL
-export const COMPANY_URL = process.env.COMPANY_URL
+
+export const SERVER_URL = import.meta.env.VITE_SERVER_URL
+export const JOBS_URL = import.meta.env.VITE_JOBS_URL
+export const APPLICATION_URL = import.meta.env.VITE_APPLICATION_URL
+export const COMPANY_URL = import.meta.env.VITE_COMPANY_URL
