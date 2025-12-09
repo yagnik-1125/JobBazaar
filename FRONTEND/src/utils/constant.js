@@ -1,4 +1,4 @@
-export const SERVER_URL = "http://localhost:8000/api/v2/user"  // backend url
-export const JOBS_URL = "http://localhost:8000/api/v2/jobs"
-export const APPLICATION_URL = "http://localhost:8000/api/v2/applications"
-export const COMPANY_URL = "http://localhost:8000/api/v2/company"
+export const SERVER_URL = process.env.SERVER_URL
+export const JOBS_URL = process.env.JOBS_URL
+export const APPLICATION_URL = process.env.APPLICATION_URL
+export const COMPANY_URL = process.env.COMPANY_URL
