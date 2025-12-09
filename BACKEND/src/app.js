@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5173', // frontend url
+    origin: 'https://job-bazaar.vercel.app/', // frontend url
     credentials: true
 }))
 
